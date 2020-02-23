@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+body {
+  background-image: url(https://i.postimg.cc/DftcpyvG/1.jpg);
+  
+  background-size:cover;
+  background-position: center center;
+  height: 100vh;
+}
+#p1 img {
+ border-radius: 100%;
+}
+.menu-area li a {
+  text-decoration: none;
+}
+
+.menu-area li {
+  list-style-type: none;
+}
+
+.custom-padding{
+  padding-top: 25px;
+}
+
+nav {
+  position: relative;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 10px 0;
+  background: #333;
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.logo {
+    
+  width: 15%;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: tomato;
+  color: #fff;
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-35deg);
+}
+
+
+nav:before {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    left: 0;
+  }
+  
+  nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+  }
+  #s1{
+   position: relative;
+    widows: 500px;
+    height:680px;
+    background-color:dodgerblue;
+    float:right;
+    margin-top:30px;
+    margin-right:30px;
+    border-radius:20px;
+}
+iframe{
+    
+    
+    border-radius: 20px;
+    overflow: hidden;
+    width: 700px;
+    height: 680px;
+
+    background-color:rgb(170, 46, 46);
+ }
+ .center{
+     position:relative;
+     top:70px;
+     left:300px;
+
+    width:  50%;
+    direction: ltr;
+
+ }
+ #p4{
+position: relative;
+left:200px ;
+
+ }
+ #p4 p{
+    position: relative;
+    left:145px;
+ }
+    
+
+ #p6{
+    
+
+width:400px;
+height:100px;
+position: relative;
+top:300px;
+left:260px;
+}
+
+#p6 a{
+    padding:12px;
+     font-size: 60px;
+}
